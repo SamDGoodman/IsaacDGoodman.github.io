@@ -1,0 +1,20 @@
+# Welcome to my blog!
+#
+# This is my blog's basic config file.
+
+# Site settings
+title: Isaac's Tech Blog
+email: isaactechgenius@isaacstechblog.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, and welcome to my tech blog! This
+  blog is all about tech related ideas
+  and creations. It is still in 
+  progress, but I will be posting very
+  soon!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.isaacstechblog.com"
+twitter_username: IsaacDGoodman
+github_username:  IsaacDGoodman
+
+# Build settings
+markdown: kramdown
