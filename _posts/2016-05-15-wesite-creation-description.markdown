@@ -16,14 +16,21 @@ Thanks for checking this out. Here I have included the installation instructions
 	If you can't get it, get the source code here: https://goo.gl/GHlkZt
 	Please tell me if there are any updates from the versions I provided.
 
-OPTIONAL: There is a usefull tool to get now, Google's Repo. First, make sure you have .bin in your ome directory: $ mkdir ~/bin     , and install: $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo.
-  $ PATH=~/bin:$PATH               
-  $ chmod a+x ~/bin/repo
+OPTIONAL: There is a usefull tool to get now, Google's Repo. First, make sure you have .bin in your ome directory: 
+	$ mkdir ~/bin
+	, and install:
+	{% highlight ruby %}
+	$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo.
+	# download Google's tool
+	$ PATH=~/bin:$PATH
+	# make /bin its path
+	$ chmod a+x ~/bin/repo
+	{% endhighlight %}
 
-2. Download Ruby. For  Windows, download from here: http://goo.gl/uC8mCd. For OSX, Linux, and other UNIX types, here: https://goo.gl/vkemZR. 
-	Now install either the latest: $ ruby-install --latest ruby, or the stable version: $ ruby-install ruby.
-3. RubyGems zip from here: https://goo.gl/mFXexW.
-4. Install node js windows x64 here: https://goo.gl/b6DeJc. x86: https://goo.gl/LX0anP. OSX: https://goo.gl/W1q71a. Everythig else: If you can't get those installers, get the source code: https://goo.gl/chKNIS
+2. Download Ruby. For  Windows, download from here: {% highlight ruby %}http://goo.gl/uC8mCd{% endhighlight %}. For OSX, Linux, and other UNIX types, here: {% highlight ruby %}https://goo.gl/vkemZR{% endhighlight %}. 
+	Now install either the latest: {% highlight ruby %}$ ruby-install --latest ruby{% endhighlight %}, or the stable version: {% highlight ruby %}$ ruby-install ruby.{% endhighlight %}
+3. RubyGems zip from here: {% highlight ruby %}https://goo.gl/mFXexW{% end highlight %}.
+4. Install node js windows x64 here: {% highlight ruby %}https://goo.gl/b6DeJc{% endhighlight %}. x86: https://goo.gl/LX0anP. OSX: https://goo.gl/W1q71a. Everythig else: If you can't get those installers, get the source code: https://goo.gl/chKNIS
 	Please tell me if there are updates.
 5. Python is found here: https://goo.gl/rnXsMi
 Now you need to install Jekyll. This installs it with RubyGems: $ gem install jekyll. Please don't put a period at the end!
